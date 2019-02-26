@@ -59,3 +59,7 @@ end
 def volume_of_sphere( radius )
  return ((4.0/3.0)* (Math::PI)* (radius**3)).round(2)
 end
+
+def farenheit_to_celsius(farenheit)
+  return (farenheit - 32) * (5/9)
+end
